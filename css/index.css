@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top-section */
+
+div#top-section{
+    background-color: rgb(65, 34, 142);
+     width: 100%;  
+}
+/* Navigation */
+nav{
+    background-color: rgb(65, 34, 142);
+     width: 100%;
+     position: sticky;
+     top: 0;
+       /* border:2px solid red;  */
+}
+
+nav #nav-text{
+    display: flex;
+    width: 80%;
+    /* border:2px solid black; */
+    margin:0px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    
+}
+nav #nav-text #nav-title h3{
+    font-size:2.0rem;
+    text-transform: lowercase;
+    color: #fff;
+}
+nav #nav-text #nav-links a{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-right: 20px;
+    color:#fff;
+    font-size:0.9rem;
+    text-decoration: none;
+}
+@media only screen and (max-width:600px){
+    nav #nav-text{
+        flex-direction: column;
+    }
+}
+/* Introduction */
+
+header{
+    background-color: rgb(65, 34, 142); 
+    width: 100%;
+    padding: 100px 0;
+    
+    
+}
+div#introduction{
+    /* border:2px solid red; */
+    width: 80%;
+    text-align: center;
+    margin:0px auto;
+    color: #fff;
+
+    /* padding: 50px; */
+}
+
+div#introduction .heading h1{
+    margin:0px 0px 10px;
+    font-size: 4.5rem;
+} 
+div#introduction .text p{
+    margin-bottom: 20px;
+}
+div#introduction .button button{
+    background:none;
+    outline:none;
+    background-color: #f5f5f5;
+    outline: #f5f5f5;
+    border:none;
+    padding:10px 30px;
+}
+
+/* top-section */
+
+div#mid{
+    width: 100%;
+    /* border:2px solid red; */
+    background-color: 	rgba(220,220,220,0.3);
+    padding:50px 0;
+}
+#mid #detail{
+    width:60%;
+    /* border: 2px solid black; */
+    margin:0px auto;
+    text-align: center;
+
+}
+
+#mid #detail p{
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight:100;
+}
+#mid #detail a{
+    color: blue;
+}
+
+
+/* skills */
+
+div#skills{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+div#skills #skill-heading{
+    width:50%;
+    /* border:2px solid black; */
+    margin:0 auto;
+    text-align: center;
+}
+div#skills #skill-heading h1{
+    font-size:4rem;
+    letter-spacing: 5px;
+}
+
+div#skills .wrap{
+    width:80%;
+    /* border: 2px solid black; */
+    margin:0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div#skills .wrap .wrap1{
+    height:200px;
+    width:350px;
+    padding:20px 0;
+    text-align: center;
+}
+div#skills .wrap .wrap1 i{
+    font-size:50px;
+}
+div#skills .wrap .wrap1 p {
+    font-size: 0.8rem;
+}
+div#skills .wrap .wrap1 .fa-html5{
+    color:darkorange;
+}
+div#skills .wrap .wrap1 .fa-css3-alt{
+    color: blue;
+}
+div#skills .wrap .wrap1 .fa-js-square{
+    color:sandybrown;
+}
+div#skills .wrap .wrap1 .fa-react{
+    color:skyblue;
+}
+div#skills .wrap .wrap1 .fa-sass{
+    color:violet;
+}
+div#skills .wrap .wrap1 .fa-wordpress{
+    color:darkblue;
+}
+
+
+/* -- Welcome to flx box --> */
+
+#flexbox{
+width: 100%;
+}
+.parallax{
+    width: 100%;
+    background-image: url(../img/portfolio-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+   
+    
+   
+}
+#flexbox .parallax .welcome{
+    width: 100%;
+    background-color: rgba(65, 34, 142,0.9);
+    margin:0 auto;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+#flexbox .parallax .welcome h1{
+    color:#f5f5f5;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#flexbox .parallax .welcome button{
+    background:none;
+    outline:none;
+    background-color: #f5f5f5;
+    outline: #f5f5f5;
+    border:none;
+    padding:10px 40px;
+    font-weight: bold;
+}
+
+/* Services */
+
+div#services{
+    width: 100%;
+    background-color: rgba(220,220,220,0.3);
+    padding:50px 0;
+    /* border: 2px solid red; */
+}
+div#services #services-heading{
+    width:50%;
+    /* border:2px solid black; */
+    margin:0 auto;
+    text-align: center;
+}
+div#services #services-heading h1{
+    font-size:3.5rem;
+    letter-spacing: 4px;
+}
+
+div#services .wrap{
+    width:80%;
+    /* border: 2px solid black; */
+    margin:0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div#services .wrap .wrap1{
+    height:250px;
+    width:350px;
+    padding:20px 0;
+    text-align: center;
+    
+}
+div#services .wrap .wrap-color{
+    background-color:rgb(65, 34, 142) ;
+}
+div#services .wrap .wrap-color i,div#services .wrap .wrap-color h3,div#services .wrap .wrap-color p{
+    color:#f5f5f5;
+}
+div#services .wrap .wrap1 i{
+    font-size:50px;
+    margin:20px 0;
+}
+
+/* Testimonials */
+
+#testimonials{
+    width:100%;
+    background-color: rgb(65, 34, 142) ;
+    padding:100px 40px;
+    text-align: center;
+    color:#f5f5f5;
+}
+#testimonials #testimonials-text h1{
+    font-size:3.5rem;
+}
+#testimonials #testimonials-text p{
+    font-size:0.8rem;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+#testimonials #img h3{
+    font-weight: 100;
+}
+#testimonials #img h5{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+/* Editor */
+
+#editor{
+    width:100%;
+    background-color:rgba(220,220,220,0.3);
+    /* border:2px solid red; */
+    padding: 50px 0;
+    
+}
+#editor #editor-text{
+    width:70%;
+    /* border:2px solid black; */
+    margin:0 auto;
+    text-align: center;
+
+}
+#editor #editor-text h1{
+    margin-bottom: 20px;
+}
+#editor #editor-text p{
+    font-size: 0.8rem;
+}
+#editor #editor-text button{
+    background:none;
+    outline:none;
+    border:none;
+    background-color: rgb(65, 34, 142) ;
+    color:#f5f5f5;
+    padding:10px 15px;
+    margin-top: 20px;
+}
+/* Footer */
+footer{
+    width:100%;
+    background-color: black;
+    color: #f5f5f5;
+    padding: 10px 0;
+}
+footer #footer-text{
+    width:40%;
+    margin:0 auto;
+    text-align: center;
+}
+footer #footer-text h1{
+    font-size:2rem;
+}
+footer #footer-text i{
+    font-size: 25px;
+    margin-right: 10px;
+
+}
